@@ -1,0 +1,38 @@
+Seed set to 42
+Training with pytorch version:  2.3.1.post300
+Training with pytorch geometric version:  2.6.1
+Training with pytorch lightning version:  2.4.0
+Device: cuda
+Loaded true input, output  torch.Size([100, 6, 175104]) torch.Size([100, 3, 175104])
+Loaded shape:  torch.Size([100, 2, 175104]) torch.Size([100, 175104]) 2
+n nodes:  175104 175104 n train:  100
+Avg:  torch.Size([175104])
+edge:  torch.Size([2, 7817472])
+Edge attributes:  torch.Size([7817472, 2])
+train and val indices:  torch.Size([20])
+Batch:  DataBatch(x=[3502080, 15], edge_index=[2, 156349440], edge_attr=[156349440, 2], y=[3502080, 1], avg=[3502080], batch=[3502080], ptr=[21])
+Computing METIS partitioning...
+        ***Cannot bisect a graph with 0 vertices!
+        ***You are trying to partition a graph into too many parts!
+Done!
+ClusterData:  DataBatch(x=[3502080, 15], edge_attr=[156349440, 2], y=[3502080, 1], avg=[3502080], batch=[3502080], ptr=[21])
+ClusterLoader:  <torch_geometric.loader.cluster.ClusterLoader object at 0x150d4fa07390>
+Validation data augmented:  torch.Size([15, 50688]) torch.Size([175104, 175104]) 2
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+Seed set to 42
+Training...
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+
+  | Name  | Type       | Params | Mode  | In sizes                  | Out sizes
+-------------------------------------------------------------------------------------
+0 | conv0 | Sequential | 11.1 K | train | [[2, 15], [2, 1], [1, 2]] | [2, 1]   
+-------------------------------------------------------------------------------------
+11.1 K    Trainable params
+0         Non-trainable params
+11.1 K    Total params
+0.044     Total estimated model params size (MB)
+40        Modules in train mode
+0         Modules in eval mode
+Epoch 49: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:32<00:00, 30.83it/s, v_num=0, train_loss_step=0.285, val_loss=0.0237, train_loss_epoch=0.457]`Trainer.fit` stopped: `max_epochs=50` reached.                                                                                                                                                                              

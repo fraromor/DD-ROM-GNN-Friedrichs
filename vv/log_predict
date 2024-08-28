@@ -1,0 +1,29 @@
+Seed set to 42
+Training with pytorch version:  2.3.1.post300
+Training with pytorch geometric version:  2.6.1
+Training with pytorch lightning version:  2.4.0
+Device: cuda
+Seed set to 42
+Output:  torch.Size([100, 3, 175104])
+start error evaluation
+Time online:  2.7066335678100586
+Relative prediction error for test with index 0:  tensor(0.0287)
+Time online:  1.9317424297332764
+Relative prediction error for test with index 1:  tensor(0.0315)
+Time online:  1.963362693786621
+Relative prediction error for test with index 2:  tensor(0.0356)
+Time online:  1.9275684356689453
+Relative prediction error for test with index 3:  tensor(0.0489)
+Time online:  1.9119951725006104
+Relative prediction error for test with index 4:  tensor(0.0592)
+Time online:  1.9101581573486328
+Relative prediction error for test with index 5:  tensor(0.0251)
+Time online:  1.9103469848632812
+Relative prediction error for test with index 6:  tensor(0.0241)
+Time online:  1.9101057052612305
+Relative prediction error for test with index 7:  tensor(0.0254)
+Time online:  1.9068706035614014
+Relative prediction error for test with index 8:  tensor(0.0282)
+Time online:  1.915729284286499
+Relative prediction error for test with index 9:  tensor(0.0205)
+torch.Size([10])
